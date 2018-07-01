@@ -7,11 +7,21 @@ body
 	min-width:20%;
 }
 .header{
+<<<<<<< HEAD
 		position: relatively;
     background-color: black;
     width:screen-width;
     padding: 15px;
     opacity: 1;
+=======
+	position: relatively;
+    	top: 10px;
+    	left: 10px;
+    	background-color: black;
+/*     	width: screen-width; */
+    	padding: 2px;
+    	opacity: 1;
+>>>>>>> 9e36ac339baa3be5ac34d43572b2b65e5b376ab4
 }
 
 #title {
