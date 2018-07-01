@@ -8,12 +8,12 @@ body
 }
 .header{
 	position: relatively;
-    top: 10px;
-    left: 10px;
-    background-color: black;
-    width: screen-width;
-    padding: 2px;
-    opacity: 1;
+    	top: 10px;
+    	left: 10px;
+    	background-color: black;
+/*     	width: screen-width; */
+    	padding: 2px;
+    	opacity: 1;
 }
 
 #title {
