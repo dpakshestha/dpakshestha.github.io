@@ -7,42 +7,43 @@ body
 	min-width:20%;
 }
 .header{
-	position: relatively;
-    top: 10px;
-    left: 10px;
+		position: relatively;
     background-color: black;
-    width: screen-width;
-    padding: 2px;
+    width:screen-width;
+    padding: 15px;
     opacity: 1;
 }
 
 #title {
-	margin-top: 0px;
-	margin-left: -50px;
-	margin-right: 0px;
-	margin-bottom: -15px;
-	padding-top: 10px;
+	width: 40%;
+	padding:10px;
+	margin-top: unset;
+	margin-left: -80px;
+	margin-bottom: -10px;
 	text-align: left;
 	color: #5CFE0B;
-	background-size: 50px;
+	background-size: 40px;
 	text-indent: 80px;
-	line-height: 0.8;
+	line-height: 0.5;
 	font-style: bold;
 	font-kerning: initial;
-	font-weight: 100%;
+	font-weight: 80%;
 	font-family: fantasy;
 }
 
 #slogan{
+	float: left;
+	width: screen-width;
 	font-family: fantasy;
-	background: green;
-	text-align: left;
+	padding: 6px;
 	/*text-decoration-style: double;*/
 	font-style: italic;
+	background-color: green;
 	color: white;
-	font-size: 30%;
-    margin-left: auto;
-    text-indent: 30px;
+	font-size: 12px;
+  text-indent: 5px;
+	margin-top:5px;
+	margin-left: -15px;
 }
 #signUp {
     background-color: #DFECE5; /* Green */
@@ -65,35 +66,34 @@ body
     font-family: fantasy;
 }
 #input{
-	float:right;
-	position: relative;
-	width: 400px;
+		float:right;
+		position: relative;
+		width: 30%;
     left: -34.7%; /* or right 50% */
     text-align: left;
     padding: 10px;
- 	margin-top: -45px;
+ 	margin-top: -25px;
  	border: none;
  	font-size: 12px;
  	font-family: fantasy;
- 	height: 4px;
+ 	height: 10px;
 
 }
 .button{
 	float:right;
-	flex-wrap: wrap;
 	display: inline-block;
 	position: absolute;
-	width: 100px;
-    padding: 5px;
+	width: 8px;
+  padding: 4px;
  	margin-top: -20px;
  	border: white;
- 	font-size: 10px;
+
 }
 #search{
 	display: inline-block;
 	position: absolute;
 	width: 90px;
-    right:51%; /* or right 50% */
+    right:29%; /* or right 50% */
     margin-top: -19px;
 }
 #canc{
@@ -101,17 +101,17 @@ body
 	display: inline-block;
 	position: absolute;
 	width: 90px;
-    right:43%; /* or right 50% */
+    left:28%; /* or right 50% */
     margin-top: -19px;
 
 }
 .blink p{
 	float: right;
-	width: 300px;
-    margin-right:0%;
-    margin-top:-55px;
-    padding:3px;
-    font-size: 100%;
+	width: 30%;
+	text-align: right;
+    margin-top:-45px;
+    padding:5px;
+    font-size: 70%;
     color: #17FBCD;
 }
 
@@ -129,21 +129,24 @@ body
        }
 
 .stat {
- height: 30px;
+ height: 20px;
  overflow: hidden;
  position: relative;
  background-color: black;
- opacity: 0.5;
+ opacity: 0.6;
 }
 .stat p {
- font-size: 130%;
- color: #5CFE0B;
+	font-family: fantasy;
+ font-style: oblique;
+ font-size: 100%;
+ color: white;
  position: absolute;
- width: 100%;
+ width: 120%;
  height: 30%;
- margin: 2px;
- line-height: 50px;
- margin-top: -10px;
+ line-height: 20px;
+ margin-top: 0px;
+ text-emphasis: 10px;
+ /*margin-top: -10px;*/
  /*text-align: left;*/
 
   /*Starting position */
