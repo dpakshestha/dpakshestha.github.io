@@ -1,0 +1,178 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background: #DFECE5;
+	max-width: 100%;
+	min-width:20%;
+}
+.header{
+	position: relatively;
+    top: 10px;
+    left: 10px;
+    background-color: black;
+    width: screen-width;
+    padding: 2px;
+    opacity: 1;
+}
+
+#title {
+	margin-top: 0px;
+	margin-left: -50px;
+	margin-right: 0px;
+	margin-bottom: -15px;
+	padding-top: 10px;
+	text-align: left;
+	color: #5CFE0B;
+	background-size: 50px;
+	text-indent: 80px;
+	line-height: 0.8;
+	font-style: bold;
+	font-kerning: initial;
+	font-weight: 100%;
+	font-family: fantasy;
+}
+
+#slogan{
+	font-family: fantasy;
+	background: green;
+	text-align: left;
+	/*text-decoration-style: double;*/
+	font-style: italic;
+	color: white;
+	font-size: 30%;
+    margin-left: auto;
+    text-indent: 30px;
+}
+#signUp {
+    background-color: #DFECE5; /* Green */
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 16px;
+    font-family: fantasy;
+}
+#signIn {
+    background-color: #DFECE5; /* Green */
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 16px;
+    font-family: fantasy;
+}
+#input{
+	float:right;
+	position: relative;
+	width: 400px;
+    left: -34.7%; /* or right 50% */
+    text-align: left;
+    padding: 10px;
+ 	margin-top: -45px;
+ 	border: none;
+ 	font-size: 12px;
+ 	font-family: fantasy;
+ 	height: 4px;
+
+}
+.button{
+	float:right;
+	flex-wrap: wrap;
+	display: inline-block;
+	position: absolute;
+	width: 100px;
+    padding: 5px;
+ 	margin-top: -20px;
+ 	border: white;
+ 	font-size: 10px;
+}
+#search{
+	display: inline-block;
+	position: absolute;
+	width: 90px;
+    right:51%; /* or right 50% */
+    margin-top: -19px;
+}
+#canc{
+
+	display: inline-block;
+	position: absolute;
+	width: 90px;
+    right:43%; /* or right 50% */
+    margin-top: -19px;
+
+}
+.blink p{
+	float: right;
+	width: 300px;
+    margin-right:0%;
+    margin-top:-55px;
+    padding:3px;
+    font-size: 100%;
+    color: #17FBCD;
+}
+
+.blink{
+	font:fantasy;
+	font-size: 140%;
+
+}
+ .blink {
+            animation: blinker 3s linear infinite;
+        }
+
+       @keyframes blinker {
+            80% { opacity: 0; }
+       }
+
+.stat {
+ height: 30px;
+ overflow: hidden;
+ position: relative;
+ background-color: black;
+ opacity: 0.5;
+}
+.stat p {
+ font-size: 130%;
+ color: #5CFE0B;
+ position: absolute;
+ width: 100%;
+ height: 30%;
+ margin: 2px;
+ line-height: 50px;
+ margin-top: -10px;
+ /*text-align: left;*/
+
+  /*Starting position */
+  -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);
+ transform:translateX(100%);
+ /* Apply animation to this element */
+ -moz-animation: example1 15s linear infinite;
+ -webkit-animation: example1 15s linear infinite;
+ animation: example1 15s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes example1 {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes example1 {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes example1 {
+ 0%   {
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%);
+ }
+ 100% {
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%);
+ }
+}
